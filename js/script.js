@@ -20,7 +20,7 @@ function calculateVolumeSurfaceArea() {
   //calculate the volume 
   let volume = sideA*sideB*height*(1/6);
 
-  // display the volume and surface area
+  // display the volume
   
   document.getElementById('answer1').innerHTML = "The volume of your rectangular prism is " +volume.toFixed(2)+"cm<sup>3</sup>.";
 }
